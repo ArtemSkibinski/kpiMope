@@ -111,7 +111,7 @@ while True:
     for k in range(len(factors)):
         pt.add_column(column_names[k], factors[k])
     print(pt, "\n")
-    
+    # Regression equation with interaction effect
     print("y = {} + {}*x1 + {}*x2 + {}*x3 + {}*x1x2 + {}*x1x3 + {}*x2x3 + {}*x1x2x3 \n".format(list_bi[0], list_bi[1],
                                                                                                list_bi[2], list_bi[3],
                                                                                                list_bi[4], list_bi[5],
