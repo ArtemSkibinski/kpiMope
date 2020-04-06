@@ -104,7 +104,7 @@ while True:
     disp_sum = sum(disp_dict.values())
     disp_list = [round(disp, 3) for disp in disp_dict.values()]
 
-    column_names = ["X0", "X1", "X2", "X3", "X1X2", "X1X3", "X2X3", "X1X2X3", "Y1", "Y2", "Y3", "Y", "S^2"]  # назви
+    column_names = ["X0", "X1", "X2", "X3", "X1X2", "X1X3", "X2X3", "X1X2X3", "Y1", "Y2", "Y3", "Y", "S^2"]
 
     pt = PrettyTable()
     factors.extend([y1, y2, y3, Y_average, disp_list])
